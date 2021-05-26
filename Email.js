@@ -8,6 +8,10 @@ check_validity(email_1);
 let email_2 = "abc@bridgelab";
 check_validity(email_2);
 
+//UC-3: Add . after Bridgelab
+let email_3 = "abc.@bridgelab.co";
+check_validity(email_3);
+
 
 function check_validity(sample){
     let output = PinRegex.test(sample);
